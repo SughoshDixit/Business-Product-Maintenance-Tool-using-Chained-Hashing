@@ -1,0 +1,355 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Business Prodtuct Maintenance Tool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Business Prodtuct Maintenance Tool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 325, 164
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Business Prodtuct Maintenance Tool"
+FONT 16, "Times New Roman"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Business Product Maintenance Tool Version 1.0",
+                    IDC_STATIC,102,14,107,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2019",IDC_STATIC,119,25,71,8
+    DEFPUSHBUTTON   "OK",IDOK,229,17,50,14,WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "For most product owners, the day their product is actually released into the market is the end of product development activity. But the fact is that product release isn’t the end; it’s usually the start of a long maintenance and upgrade cycle. ",
+                    IDC_STATIC,15,46,264,25
+    LTEXT           "Once a product is out in the  market, owners need to begin thinking how to incorporate the feedback that they have  received into the next version of the product, to improve usability, user-friendliness, features and overall value.",
+                    IDC_STATIC,15,72,265,24
+    LTEXT           "Information such as company gst no, company, product id, and product are asked while adding a record into the file .",
+                    IDC_STATIC,15,97,265,16
+    LTEXT           "Sughosh P Dixit",IDC_STATIC,260,131,48,10,0,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "1BI16IS053",IDC_STATIC,260,142,39,9,0,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "The hashing algorithm is implemented using the field as well as it follows the GPC (Global Product Code) standards which has been  designed by the Global Language Of Business.",
+                    IDC_STATIC,15,114,265,16
+END
+
+IDD_BUSINESSPRODTUCTMAINTENANCETOOL_DIALOG DIALOGEX 0, 0, 368, 178
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_VSCROLL | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Business Prodtuct Maintenance Tool"
+FONT 16, "MV Boli"
+BEGIN
+    LTEXT           "Company GST No",IDC_STATIC,35,47,58,8
+    LTEXT           "Company",IDC_STATIC,35,65,30,8
+    LTEXT           "Product ID",IDC_STATIC,35,87,48,8
+    LTEXT           "Product",IDC_STATIC,35,104,26,8
+    EDITTEXT        IDC_EDIT1,96,44,81,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT2,96,63,81,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT3,96,83,81,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT4,96,103,81,14,ES_AUTOHSCROLL,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "About Project",IDC_BUTTON1,13,13,50,14
+    CTEXT           "Business Product Maintenance Tool",IDC_STATIC,94,14,135,
+                    11,WS_BORDER,WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Retrieve Product",IDOK2,224,58,70,14,0,
+                    WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Demo Catalogue",IDOK3,224,118,70,14,0,
+                    WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Retrieve Company",IDOK4,224,78,70,14,0,
+                    WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Exit",IDOK6,133,133,70,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Insert Details",InsertBTN,36,133,70,14,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Display",IDC_BUTTON3,224,39,69,13,BS_FLAT,
+                    WS_EX_DLGMODALFRAME
+    DEFPUSHBUTTON   "Delete A Product",IDOK5,224,98,70,14,0,
+                    WS_EX_DLGMODALFRAME
+END
+
+RetrievePDlg DIALOGEX 0, 0, 303, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Retrieve Product"
+FONT 14, "MV Boli"
+BEGIN
+    DEFPUSHBUTTON   "Retrieve Product Details",IDOK,202,16,87,14,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Back",IDCANCEL,216,56,59,14,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Product Id",IDC_STATIC,15,17,63,13,WS_BORDER,
+                    WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT1,103,16,82,14,ES_AUTOHSCROLL,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,14,34,186,77,WS_EX_DLGMODALFRAME
+END
+
+RetrieveCDlg DIALOGEX 0, 0, 309, 139
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Retrieve Company Details"
+FONT 14, "MV Boli"
+BEGIN
+    DEFPUSHBUTTON   "Retrieve Company Details",IDOK2,198,13,96,14,0,
+                    WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Back",IDCANCEL2,231,67,59,14,0,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT1,109,13,82,14,ES_AUTOHSCROLL,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Company Gst No",IDC_STATIC,16,14,88,13,WS_BORDER,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,17,37,202,77,WS_EX_DLGMODALFRAME
+END
+
+CatalogueDlg DIALOGEX 0, 0, 408, 217
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Demo Catalogue"
+FONT 12, "MV Boli"
+BEGIN
+    PUSHBUTTON      "Back",IDCANCEL,337,149,50,14,0,WS_EX_DLGMODALFRAME
+    LTEXT           "Stock Keeping Unit",IDC_STATIC,165,13,72,11,WS_BORDER,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "SKU is short for Stock Keeping Unit, it is also sometimes known as the product code (not to be confused with a barcode). If you are selling products it is important to set up your inventory management software correctly and one of the most, if not the most important, part of this setup is the product SKU.",
+                    IDC_STATIC,19,29,372,25
+    LTEXT           "Item identification numbers (item numbers) are used to uniquely identify items that you carry in inventory. Some companies will call them “part numbers”, “model numbers”, “product codes”, SKUs, etc. But whatever you call them, item numbers are important for you and the systems you use.",
+                    IDC_STATIC,19,55,374,26
+    LTEXT           " If you or your system can’t uniquely identify an item, you can’t effectively account for its activity and whereabouts within your inventory. Item numbers also serve as a shorthand for longer item descriptions. Instead of entering an entire name or description for an item, you can use a much shorter item number. This speeds up the process of data entry and inventory management. ",
+                    IDC_STATIC,19,80,376,32
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,20,116,276,87,WS_EX_DLGMODALFRAME
+END
+
+DeleteDlg DIALOGEX 0, 0, 324, 89
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Delete Operation"
+FONT 12, "MV Boli"
+BEGIN
+    DEFPUSHBUTTON   "Delete Record",IDOK,238,18,55,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Back",IDCANCEL,125,53,50,14,0,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_EDIT1,88,18,131,13,ES_AUTOHSCROLL,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "Enter Product Id",IDC_STATIC,20,19,63,12,WS_BORDER,
+                    WS_EX_DLGMODALFRAME
+END
+
+ViewDlg DIALOGEX 0, 0, 253, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Display"
+FONT 14, "MV Boli"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,35,122,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Cancel",IDCANCEL,153,122,50,14,0,WS_EX_DLGMODALFRAME
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,16,13,214,96,WS_EX_DLGMODALFRAME
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Business Prodtuct Maintenance Tool MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Business Prodtuct Maintenance Tool\0"
+            VALUE "LegalCopyright", "Copyright (C) 2019\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Business Prodtuct Maintenance Tool.EXE\0"
+            VALUE "ProductName", "Business Prodtuct Maintenance Tool Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 318
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+
+    IDD_BUSINESSPRODTUCTMAINTENANCETOOL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 355
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    RetrievePDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 296
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    RetrieveCDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 132
+    END
+
+    CatalogueDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 210
+    END
+
+    DeleteDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 317
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    ViewDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 246
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Business Prodtuct Maintenance Tool..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Business Prodtuct Maintenance Tool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

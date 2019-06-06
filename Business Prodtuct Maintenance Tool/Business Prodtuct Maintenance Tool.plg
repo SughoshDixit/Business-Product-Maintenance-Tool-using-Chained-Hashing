@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Business Prodtuct Maintenance Tool - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Admin\AppData\Local\Temp\RSPC38A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Business Prodtuct Maintenance Tool.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\C++ Project\Business Product Maintenance Tool\Business Prodtuct Maintenance Tool\node.cpp"
+]
+Creating command line "cl.exe @C:\Users\Admin\AppData\Local\Temp\RSPC38A.tmp" 
+Creating temporary file "C:\Users\Admin\AppData\Local\Temp\RSPC428.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Business Prodtuct Maintenance Tool.pdb" /debug /machine:I386 /out:"Debug/Business Prodtuct Maintenance Tool.exe" /pdbtype:sept 
+".\Debug\Business Prodtuct Maintenance Tool.obj"
+".\Debug\Business Prodtuct Maintenance ToolDlg.obj"
+".\Debug\deleteDlg.obj"
+".\Debug\democatalogueDlg.obj"
+".\Debug\node.obj"
+".\Debug\retrieveCDlg.obj"
+".\Debug\retrieveDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\viewdlg.obj"
+".\Debug\Business Prodtuct Maintenance Tool.res"
+]
+Creating command line "link.exe @C:\Users\Admin\AppData\Local\Temp\RSPC428.tmp"
+<h3>Output Window</h3>
+Compiling...
+node.cpp
+C:\C++ Project\Business Product Maintenance Tool\Business Prodtuct Maintenance Tool\node.cpp(84) : warning C4018: '<' : signed/unsigned mismatch
+C:\C++ Project\Business Product Maintenance Tool\Business Prodtuct Maintenance Tool\node.cpp(92) : warning C4018: '<' : signed/unsigned mismatch
+C:\C++ Project\Business Product Maintenance Tool\Business Prodtuct Maintenance Tool\node.cpp(139) : warning C4018: '<' : signed/unsigned mismatch
+C:\C++ Project\Business Product Maintenance Tool\Business Prodtuct Maintenance Tool\node.cpp(147) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Business Prodtuct Maintenance Tool.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>
