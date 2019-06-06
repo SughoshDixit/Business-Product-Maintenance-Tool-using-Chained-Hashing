@@ -1,1 +1,19 @@
 # Business-Product-Maintenance-Tool-using-Chained-Hashing
+Business Product Maintenance is a small windows MFC application. In olden days we stored all the important the company’s product details in books and papers. Here we are proposing a new system, by using this application we can store all the details in a central repository. In manual
+method if we forget information book then it is very difficult to get the product details. By using this application, we can see our products anywhere in the world. In this project we can save our products and we can delete them by name and we can view the products.
+Under this Business Product Maintenance project, all the functionalities has been added to meet the user’s requirements in just few seconds. To provide the desired result on time, it is using files, Active-X in any Windows system. As there is a new customer at he user's side, so users
+will be able to get updated information each time. It will also guide the users to use this system in convenient manner through its graphical screen. The names are present in the user-stated formats like alphabets so that user can easily find the required product along with their company and product code.
+
+General Overview:
+
+For most product owners, the day their product is actually released into the market is the end of product development activity. But the fact is that product release isn’t the end; it’s usually the start of a long maintenance and upgrade cycle. Once a product is out in the
+market, owners need to begin thinking how to incorporate the feedback that they have received into the next version of the product, to improve usability, user-friendliness, features and overall value. So this tool has the primary aim to showcase how a product must be maintained in a given inventory or warehouse.
+
+In the current environment, business practices, policies, and execution methodologies keep undergoing changes even as newer and better technologies emerge. In such a scenario, one of the biggest challenges faced by organizations is to manage IT well enough to keep it in
+sync with the business, while capitalizing on current assets. This application will teach you how to add, list, modify or edit, search and delete data to/from the file. Adding new records, listing them, modifying them and updating, search for contacts saved, and deleting the
+products based on the usability are the basic functions which make up the main menu of this product based application. Information such as company gst no, company, product id, and product are asked while adding a record into the file. These records can then be
+modified, listed, searched for and removed. The application will also display the list of products with all the given information. The product id that has been assigned is the main highlight of this particular project, where the hashing algorithm is implemented using this
+field as well as it follows the GPC (Global Product Code) standards which has been designed by the Global Language Of Business.
+
+SKU is short for Stock Keeping Unit, it is also sometimes known as the product code (not to be confused with a barcode). If you are selling products it is important to set up your inventory software correctly and one of the most imortant part is SKU. Item identification numbers (item numbers) are used to uniquely identify items that you carry in inventory. Some companies will call them “part numbers”, “model numbers”, “product codes”, SKUs, etc. But whatever you call them, item numbers are important for you and the product you use.If you or your system can’t uniquely identify an item, you can’t effectively account for its activity and whereabouts within your inventory. Item numbers also serve as a shorthand for longer item descriptions. 
+This application can run using Visual C++(Studio).
